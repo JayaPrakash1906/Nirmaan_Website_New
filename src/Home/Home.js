@@ -4,8 +4,10 @@ import Img1 from "../Assest/1.jpeg";
 import Img2 from "../Assest/2.jpeg";
 import Img3 from "../Assest/3.jpeg";
 import Img4 from "../Assest/4.jpeg";
-import Img5 from "../Assest/file (1).jpg";
-import Img6 from "../Assest/logo.png";
+import Img5 from "../Assest/5.jpg";
+import Img6 from "../Assest/6.jpeg";
+import Img7 from "../Assest/7.jpeg";
+import Img8 from "../Assest/logo.png";
 import {
   FaBusinessTime,
   FaChevronLeft,
@@ -32,7 +34,7 @@ const Home = () => {
       <Navbar />
       <div className="grid grid-cols-3 gap-4">
         <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-10">
-          <img src={Img1} className="w-23 h-23" alt="Image 1" />
+          <img src={Img7} className="w-23 h-23" alt="Image 1" />
         </div>
         <div>
           <div className="p-6 max-w-xl mx-auto bg-white rounded-xl border space-y-4 bg-gray-50 mt-16">
@@ -55,28 +57,28 @@ const Home = () => {
           </div>
         </div>
         <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-10">
-          <img src={Img2} className="w-23 h-23" alt="Image 2" />
+          <img src={Img6} className="w-23 h-23" alt="Image 2" />
         </div>
       </div>
       <div className="grid grid-cols-5 gap-3">
         <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-2">
-          <img src={Img2} className="w-23 h-23" alt="Image 3" />
+          <img src={Img3} className="w-23 h-23" alt="Image 3" />
         </div>
         <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-16">
-          <img src={Img3} className="w-23 h-23" alt="Image 4" />
+          <img src={Img4} className="w-23 h-23" alt="Image 4" />
         </div>
         <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-2">
-          <img src={Img4} className="w-23 h-23" alt="Image 5" />
+          <img src={Img5} className="w-23 h-23" alt="Image 5" />
         </div>
         <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-16">
-          <img src={Img1} className="w-23 h-23" alt="Image 1" />
+          <img src={Img2} className="w-23 h-23" alt="Image 1" />
         </div>
         <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-2">
-          <img src={Img4} className="w-23 h-23" alt="Image 6" />
+          <img src={Img1} className="w-23 h-23" alt="Image 6" />
         </div>
       </div>
       <div className="p-4">
-        <div className="border-t border-b border-l border-black  p-8 relative">
+        <div className="border-t border-b border-l border-black rounded-lg  p-8 relative rounded-br-none rounded-tr-none">
           <div className="grid grid-cols-3 gap-8">
             <div className="relative">
               <span className="absolute -top-11 left-24 bg-white px-2">
@@ -133,7 +135,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="border-r border-b  border-black  p-8 relative">
+        <div className=" border-b border-r border-black rounded-lg  p-8 relative">
           <div className="relative">
             <div className="flex items-center justify-center">
               <span className="absolute absolute -top-12 center bg-white px-2 text-3xl font-bold font-lora">
@@ -154,7 +156,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="  border-black  p-8 relative">
+        <div className="border-black p-8 relative rounded-lg">
           <div className="grid grid-cols-3 gap-8">
             <div className="relative">
               <span className="absolute -top-11 left-24 bg-white px-2">
@@ -256,7 +258,7 @@ const Home = () => {
             </div>
             <div>
             <div className="flex items-start">
-  <img src={Img6} className="w-12 h-12 mr-2.5" alt="Logo" />
+  <img src={Img8} className="w-12 h-12 mr-2.5" alt="Logo" />
   <div className="font-dmsans">
     <div className="font-bold text-md">
       <span>Akash Anand</span>
