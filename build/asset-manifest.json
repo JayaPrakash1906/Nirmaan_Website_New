@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.286e9285.css",
+    "main.js": "/static/js/main.32de9e18.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/3.jpeg": "/static/media/3.ac1cebb4c091272a9516.jpeg",
+    "static/media/1.jpeg": "/static/media/1.ae6dd2c64412fddf2a49.jpeg",
+    "static/media/2.jpeg": "/static/media/2.2cb52208c3ddf5bff7f2.jpeg",
+    "static/media/4.jpeg": "/static/media/4.51ef75c41d560f81a3fd.jpeg",
+    "static/media/Prajagopal.jpeg": "/static/media/Prajagopal.60132fc2cea9fee56528.jpeg",
+    "static/media/5.jpg": "/static/media/5.a1d28d2c81ba946d4c7d.jpg",
+    "static/media/Mam.jpeg": "/static/media/Mam.2b5be7ce3ba3bb1f2e48.jpeg",
+    "static/media/6.jpeg": "/static/media/6.b8bca77d89c1545aa922.jpeg",
+    "static/media/student.jpeg": "/static/media/student.c22cb6ed3a1ba47d566a.jpeg",
+    "static/media/7.jpeg": "/static/media/7.a556d3b3f01c3db5445e.jpeg",
+    "static/media/image.png": "/static/media/image.e9ca26409e6110c6b920.png",
+    "static/media/iitm.png": "/static/media/iitm.4ee4331b1395c10372c9.png",
+    "static/media/oie.jpg": "/static/media/oie.089bb9f2073c8465d801.jpg",
+    "static/media/Nirmaan.png": "/static/media/Nirmaan.6f1c779aeedc96d3ec82.png",
+    "static/media/logo.png": "/static/media/logo.f16599fa73d3b6cade48.png",
+    "index.html": "/index.html",
+    "main.286e9285.css.map": "/static/css/main.286e9285.css.map",
+    "main.32de9e18.js.map": "/static/js/main.32de9e18.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.286e9285.css",
+    "static/js/main.32de9e18.js"
+  ]
+}

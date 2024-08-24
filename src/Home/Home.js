@@ -260,7 +260,7 @@ const Home = () => {
             <div className="flex items-start">
   <img src={Img8} className="w-12 h-12 mr-2.5" alt="Logo" />
   <div className="font-dmsans">
-    <div className="font-bold text-md">
+    <div className="font-bold text-md ">
       <span>Akash Anand</span>
       <div className="text-xs">Founder, Clueso</div>
     </div>
