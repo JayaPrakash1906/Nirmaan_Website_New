@@ -21,6 +21,7 @@ import Img19 from "../Assets/X .png";
 import Img20 from "../Assets/FB.png";
 import Img21 from "../Assets/Instagram.png";
 import Img22 from "../Assets/workspace.jpg";
+import Img23 from "../Assets/Incubation.png"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { CiLocationOn, CiMail, CiYoutube } from "react-icons/ci";
@@ -158,11 +159,17 @@ const Carousel = () => {
   };
 
   return (
-    <div className=" text-white p-4 mt-8 px-8"style={{ backgroundColor: "#abf7af" }}>
+    <div
+      className=" text-white p-4 mt-8 px-8"
+      style={{ backgroundColor: "#abf7af" }}
+    >
       <div className="relative w-full max-w-7xl mx-auto mt-6 ">
         <div className="grid grid-cols-2 gap-1">
           {/* Left Column: Slide Content */}
-          <div className="overflow-hidden rounded-lg shadow-lg  "style={{ backgroundColor: "#4c9c50" }}>
+          <div
+            className="overflow-hidden rounded-lg shadow-lg  "
+            style={{ backgroundColor: "#4c9c50" }}
+          >
             <div
               className="flex transition-transform duration-500"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -247,7 +254,11 @@ const StatCounter = ({ stat }) => {
   return (
     <div className="p-6 rounded-lg shadow-lg text-center">
       <div className="text-3xl font-semibold text-white font-dmsans">
-        <div className=" rounded-lg p-2 " ref={ref}style={{ backgroundColor: "#4c9c50" }}>
+        <div
+          className=" rounded-lg p-2 "
+          ref={ref}
+          style={{ backgroundColor: "#4c9c50" }}
+        >
           {inView && (
             <CountUp
               end={stat.value}
@@ -272,7 +283,7 @@ const Home = () => {
     <div>
       <Navbar />
       <div
-        className="relative overflow-hidden whitespace-nowrap  mt-4"
+        className="relative overflow-hidden whitespace-nowrap  mt-32"
         style={{ backgroundColor: "#4c9c50" }}
       >
         <div className="flex animate-marquee font-dmsans  text-white">
@@ -291,9 +302,8 @@ const Home = () => {
           <div className=" max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-16 content-left">
             <div className="text-center">
               <h1 className=" font-bold font-roboto">
-                <span className="text-green-600 text-6xl">NIRMAAN</span> <br/><div className="text-xl">THE PRE-
-                INCUBATOR ,
-                IIT MADRAS</div>
+                <span className="text-green-600 text-6xl">NIRMAAN</span> <br />
+                <div className="text-xl">THE PRE- INCUBATOR , IIT MADRAS</div>
               </h1>
               <p className="mt-8 text-gray-800 font-dmsans text-justify">
                 Nirmaan at IIT Madras (IITM), is the first of its kind dedicated
@@ -310,125 +320,115 @@ const Home = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-[-10px] mr-6">
-  <motion.div
-    className="col-span-6 mt-8 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 "
-    initial={{ opacity: 0, x: -50 }}
-    animate={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.5 }}
-  >
-    <motion.img
-      src={Img7}
-      className="h-[180px] border border-green-800 rounded-lg"
-      alt="Image 1"
-      
-    />
-  </motion.div>
-  <motion.div
-    className="col-span-6 mt-8 mr-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
-    initial={{ opacity: 0, x: -50 }}
-    animate={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.5 }}
-  >
-    <motion.img
-      src={Img6}
-      className="h-[180px] border border-green-800 rounded-lg"
-      alt="Image 9"
-      
-    />
-  </motion.div>
-  <motion.div
-    className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
-    initial={{ opacity: 0, x: -50 }}
-    animate={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.5 }}
-  >
-    <motion.img
-      src={Img4}
-      className="h-21 border border-green-800 rounded-lg"
-      alt="Image 1"
-      
-    />
-  </motion.div>
-  <motion.div
-    className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
-    initial={{ opacity: 0, x: -50 }}
-    animate={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.5 }}
-  >
-    <motion.img
-      src={Img4}
-      className="h-21 border border-green-800 rounded-lg"
-      alt="Image 1"
-      
-    />
-  </motion.div>
-  <motion.div
-    className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
-    initial={{ opacity: 0, x: -50 }}
-    animate={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.5 }}
-  >
-    <motion.img
-      src={Img5}
-      className="h-21 border border-green-800 rounded-lg"
-      alt="Image 1"
-      
-    />
-  </motion.div>
-</div>
-
-</div>
-      
-        
-        <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-32 content-bottom">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold font-roboto text-green-600">
-              NIRMAAN IN NUMBERS
-            </h1>
-            <p className="mt-4 text-gray-600 font-dmsans text-justify">
-              Our commitment to nurturing entrepreneurship has been recognized
-              through various awards and accolades. Nirmaan has been honored as
-              one of the leading incubators in the region, reflecting our
-              dedication to supporting the next generation of entrepreneurs.
-            </p>
-          </div>
+          <motion.div
+            className="col-span-6 mt-8 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 "
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <motion.img
+              src={Img7}
+              className="h-[180px] border border-green-800 rounded-lg"
+              alt="Image 1"
+            />
+          </motion.div>
+          <motion.div
+            className="col-span-6 mt-8 mr-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <motion.img
+              src={Img6}
+              className="h-[180px] border border-green-800 rounded-lg"
+              alt="Image 9"
+            />
+          </motion.div>
+          <motion.div
+            className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <motion.img
+              src={Img4}
+              className="h-21 border border-green-800 rounded-lg"
+              alt="Image 1"
+            />
+          </motion.div>
+          <motion.div
+            className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <motion.img
+              src={Img4}
+              className="h-21 border border-green-800 rounded-lg"
+              alt="Image 1"
+            />
+          </motion.div>
+          <motion.div
+            className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <motion.img
+              src={Img5}
+              className="h-21 border border-green-800 rounded-lg"
+              alt="Image 1"
+            />
+          </motion.div>
         </div>
-        <div className="p-4">
-          <div className="flex justify-center items-center">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-cols-4 gap-4 content-bottom">
-              {stats.map((stat) => (
-                <StatCounter key={stat.id} stat={stat} />
-              ))}
-            </div>
-          </div>
-          <div>
-           <div className="flex items-center justify-center text-2xl font-semibold mt-8 mb-8"> Our Supporters </div>
-
-          <Marquee>
-  <div className="flex space-x-6">
-    <img src={Img1} className="h-[100px]" />
-    <img src={Img1} className="h-[100px]" />
-    <img src={Img1} className="h-[100px]" />
-    <img src={Img1} className="h-[100px]" />
-    <img src={Img1} className="h-[100px]" />
-    <img src={Img1} className="h-[100px]" />
-    <img src={Img1} className="h-[100px]" />
-    <img src={Img1} className="h-[100px]" />
-    <img src={Img1} className="h-[100px]" />
-  </div>
-</Marquee>
-
-        </div>
-        </div>
-        
-
-        <Carousel />
-
-        
-        <Footer />
       </div>
-      
-    
+
+      <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-32 content-bottom">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold font-roboto text-green-600">
+            NIRMAAN IN NUMBERS
+          </h1>
+          <p className="mt-4 text-gray-600 font-dmsans text-justify">
+            Our commitment to nurturing entrepreneurship has been recognized
+            through various awards and accolades. Nirmaan has been honored as
+            one of the leading incubators in the region, reflecting our
+            dedication to supporting the next generation of entrepreneurs.
+          </p>
+        </div>
+      </div>
+      <div className="p-4">
+        <div className="flex justify-center items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-cols-4 gap-4 content-bottom">
+            {stats.map((stat) => (
+              <StatCounter key={stat.id} stat={stat} />
+            ))}
+          </div>
+        </div>
+        <div>
+      <div className="flex items-center justify-center text-2xl font-semibold mt-8 mb-8">
+        Our Supporters
+      </div>
+
+      <Marquee>
+        <div className="flex space-x-6">
+          <img src={Img23} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
+          
+        </div>
+      </Marquee>
+    </div>
+      </div>
+
+      <Carousel />
+
+      <Footer />
+    </div>
   );
 };
 
