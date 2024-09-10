@@ -14,42 +14,50 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Dr. Boby George",
-      title: "Professor, Department of Electrical Engineering, IIT Madras",
+      title: "Professor,",
+      organisation: 'IIT Madras',
       image: img2
     },
     {
       name: "Dr. Satyanarayanan Seshadri",
-      title: "Associate Professor",
+      title: "Associate Professor,",
+      organisation: 'IIT Madras',
       image: img3,
     },
     {
       name: "Dr. Tamaswati Ghosh",
-      title: "Chief Executive Officer, IITIC",
+      title: "Chief Executive Officer,",
+      organisation: 'IITM Incubation Cell',
       image: img4
     },
     {
       name: "Chirag Gupta",
-      title: "Managing Partner, 8X Ventures",
+      title: "Managing Partner,",
+      organisation: ' 8X Ventures',
       image: img5
     },
     {
       name: "Member 5",
       title: "Role and Organization",
+      organisation: ' 8X Ventures',
       image: img6,
     },
     {
       name: "Dr. Prabhu Rajagopal",
-      title: "Faculty Advisor",
+      title: "Professor & Faculty Advisor",
+      organisation: ' 8X Ventures',
       image: img6,
     },
     {
       name: "Nandhini K S",
-      title: `Manager, Office of Innovation & Entrepreneurship`,
+      title: `Manager`,
+      organisation: 'Office of Innovation & Entrepreneurship',
       image: img7
     },
     {
-      name: "Yuvraj",
-      title: "Student Head",
+      name: "Yuvraj Thakur",
+      title: "Student Executive Head",
+      organisation: 'Nirmaan',
       image: img8
     }
   ];
@@ -68,10 +76,11 @@ const Team = () => {
                     alt={member.name}
                     className="mx-auto w-40 h-40 rounded-full object-cover mb-4"
                   />
-                  <h3 className="text-xl font-semibold text-green-600">
+                  <h3 className="text-md font-semibold text-green-600">
                     {member.name}
                   </h3>
-                  <p className="text-gray-600">{member.title}</p>
+                  <p className="text-gray-600 font-semibold">{member.title}</p>
+                  <p className="text-gray-600">{member.organisation}</p>
                 </div>
               ))}
         </div>
@@ -95,23 +104,6 @@ const Team = () => {
             </div>
           ))}
         </div>
-
-        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold'>Executive Team</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-              {teamMembers.slice(5, 8).map((member, index) => (
-                <div key={index} className="text-center">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="mx-auto w-40 h-40 rounded-full object-cover mb-4 object-top"
-                  />
-                  <h3 className="text-xl font-semibold text-green-600">
-                    {member.name}
-                  </h3>
-                  <p className="text-gray-600">{member.title}</p>
-                </div>
-              ))} 
-          </div>
       </div>
     </div>
   );

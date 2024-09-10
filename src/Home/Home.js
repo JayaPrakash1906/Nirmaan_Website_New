@@ -287,14 +287,14 @@ const Home = () => {
         style={{ backgroundColor: "#4c9c50" }}
       >
         <div className="flex animate-marquee font-dmsans  text-white">
-          <span className="mx-6">NIRMAAN DEMO DAY-27-Sept-2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY-27-Sept-2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY-27-Sept-2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY-27-Sept-2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY-27-Sept-2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY-27-Sept-2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY-27-Sept-2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY-27-Sept-2024</span>
+          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
+          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
+          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
+          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
+          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
+          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
+          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
+          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
         </div>
       </div>
       <div className="grid grid-cols-2 gap-3 ">
@@ -386,17 +386,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-32 content-bottom">
+      <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-10 content-bottom">
         <div className="text-center">
           <h1 className="text-2xl font-bold font-roboto text-green-600">
             NIRMAAN IN NUMBERS
           </h1>
-          <p className="mt-4 text-gray-600 font-dmsans text-justify">
-            Our commitment to nurturing entrepreneurship has been recognized
-            through various awards and accolades. Nirmaan has been honored as
-            one of the leading incubators in the region, reflecting our
-            dedication to supporting the next generation of entrepreneurs.
-          </p>
         </div>
       </div>
       <div className="p-4">
@@ -408,7 +402,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-      <div className="flex items-center justify-center text-2xl font-semibold mt-8 mb-8">
+      <div className="flex items-center justify-center text-2xl font-semibold mt-10 mb-8">
         Our Supporters
       </div>
 
