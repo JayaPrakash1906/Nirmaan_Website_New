@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Components/Navbar";
 import axios from "axios";
+import Footer from "../Components/Footer";
 
 function Teams() {
     const [data, setData] = useState([]);
@@ -34,6 +35,7 @@ function Teams() {
                     ))}
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
