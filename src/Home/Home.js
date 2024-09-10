@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Navbar from "../Components/Navbar";
-import Img1 from "../Assets/1.jpeg";
-import Img2 from "../Assets/2.jpeg";
-import Img3 from "../Assets/3.jpeg";
-import Img4 from "../Assets/4.jpeg";
+import Img1 from "../Assets/Incubation-logo.png";
+import Img2 from "../Assets//hyperverge-logo.webp";
+import Img3 from "../Assets/Seafund-Logo-1.webp";
+import Img4 from "../Assets/logo-cogniphy.png";
 import Img5 from "../Assets/5.jpg";
 import Img6 from "../Assets/6.jpeg";
 import Img7 from "../Assets/7.jpeg";
 import Img8 from "../Assets/Paststudent.png";
-import Img9 from "../Assets/DSC_1259.jpg";
+import Img9 from "../Assets/sobusyoutube.jpg";
 import Img11 from "../Assets/tools.jpg";
 import Img12 from "../Assets/Mentorship.jpg";
 import Img13 from "../Assets/workshops.jpg";
@@ -20,8 +20,8 @@ import Img18 from "../Assets/Linkedin.png";
 import Img19 from "../Assets/X .png";
 import Img20 from "../Assets/FB.png";
 import Img21 from "../Assets/Instagram.png";
-import Img22 from "../Assets/workspace.jpg";
-import Img23 from "../Assets/Incubation.png"
+import Img22 from "../Assets/NATESAN.jpg";
+import Img23 from "../Assets/aptiv.png"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import CountUp from "react-countup";
 import { CiLocationOn, CiMail, CiYoutube } from "react-icons/ci";
@@ -322,7 +322,7 @@ const Home = () => {
         <div className="grid grid-cols-12 gap-[-10px] mr-6">
           <motion.div
             className="col-span-6 mt-8 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 "
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
@@ -330,11 +330,14 @@ const Home = () => {
               src={Img7}
               className="h-[180px] border border-green-800 rounded-lg"
               alt="Image 1"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}   
+              transition={{ duration: 0.5 }}     
             />
           </motion.div>
           <motion.div
             className="col-span-6 mt-8 mr-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
@@ -346,7 +349,7 @@ const Home = () => {
           </motion.div>
           <motion.div
             className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
@@ -358,7 +361,7 @@ const Home = () => {
           </motion.div>
           <motion.div
             className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
@@ -370,7 +373,7 @@ const Home = () => {
           </motion.div>
           <motion.div
             className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
@@ -413,13 +416,17 @@ const Home = () => {
         <div className="flex space-x-6">
           <img src={Img23} alt="supporter-logo" className="h-[100px]" />
           <img src={Img1} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img2} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img3} alt="supporter-logo" className="h-[35px] mt-7" />
+          <img src={Img4} alt="supporter-logo" className="h-[50px] mt-6" />
+          <img src={Img22} alt="supporter-logo" className="h-[50px] mt-5" />
+          <img src={Img9} alt="supporter-logo" className="h-[100px]" />
+          {/* <img src={Img1} alt="supporter-logo" className="h-[100px]" />
           <img src={Img1} alt="supporter-logo" className="h-[100px]" />
           <img src={Img1} alt="supporter-logo" className="h-[100px]" />
           <img src={Img1} alt="supporter-logo" className="h-[100px]" />
           <img src={Img1} alt="supporter-logo" className="h-[100px]" />
-          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
-          <img src={Img1} alt="supporter-logo" className="h-[100px]" />
-          
+           */}
         </div>
       </Marquee>
     </div>
