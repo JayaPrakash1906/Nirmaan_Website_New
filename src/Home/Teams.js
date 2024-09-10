@@ -1,47 +1,41 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Components/Navbar";
 import axios from "axios";
-function Teams(){
 
-    const fetchTeamsData = async() => {
-        try
-        {
-            const result = await axios.post('https://nirmaan.iitm.ac.in:8000/api/get-projects');
-            console.log(result);      
-        }
-        catch(err)
-        {
+function Teams() {
+    const [data, setData] = useState([]);
+    const url = 'https://nirmaan.iitm.ac.in:8000/api/images/'
+    const fetchTeamsData = async () => {
+        try {
+            const result = await axios.get('https://nirmaan.iitm.ac.in:8000/api/projects');
+            setData(result.data); // Fix the state update to use result.data
+        } catch (err) {
             console.log(err);
         }
-    }
-    useEffect(() =>{
+    };
+
+    useEffect(() => {
         fetchTeamsData();
-    }, [])
+    }, []);
+
     return (
         <div>
             <Navbar />
             <div className="mt-[130px] font-dmsans">
-                    <h2 className="text-center text-3xl font-semibold">All Startups</h2>
-                    <div className="grid grid-cols-4 gap-10 mt-10 px-10">
-                            <div className="flex justify-center items-center border">
-                                <img src="sk" alt="" /><br></br>
-                                <div>dijh</div>
+                <h2 className="text-center text-3xl font-semibold">All Startups</h2>
+                <div className="grid grid-cols-4 gap-10 mt-10 px-10">
+                    {data.map((item, index) => (
+                        <div>
+                            <div key={index} className="flex flex-col justify-center items-center p-4">
+                                    <img src={url+item.profile_photo || "default-image.png"} alt={item.name} className="w-[100px] h-[70px]" /><br></br>
+                                    <div className="pt-5">{item.project_name || "No Name"}</div>
                             </div>
-                            <div className="flex justify-center items-center border">
-                                    slkd
-                            </div>
-                            <div className="flex justify-center items-center border"> 
-                                    slkd
-                            </div>
-                            <div className="flex justify-center items-center border">
-                                    slkd
-                            </div>
-                            <div className="flex justify-center items-center border">
-                                    slkd
-                            </div>
-                    </div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
-    )
+    );
 }
+
 export default Teams;
