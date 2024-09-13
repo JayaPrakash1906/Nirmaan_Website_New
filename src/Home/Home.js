@@ -9,17 +9,17 @@ import Img6 from "../Assets/6.jpeg";
 import Img7 from "../Assets/7.jpeg";
 import Img8 from "../Assets/Paststudent.png";
 import Img9 from "../Assets/sobusyoutube.jpg";
-import Img11 from "../Assets/tools.jpg";
-import Img12 from "../Assets/Mentorship.jpg";
-import Img13 from "../Assets/workshops.jpg";
-import Img14 from "../Assets/funding.jpg";
-import Img15 from "../Assets/networking.jpg";
+import Img11 from "../Assets/nexus.png";
+import Img12 from "../Assets/nithin.png";
+import Img13 from "../Assets/Eashwar.png";
+import Img14 from "../Assets/Krishaka.png";
+import Img15 from "../Assets/1.jpeg";
 import Img16 from "../Assets/logo.png";
-import Img17 from "../Assets/youtubenew.png";
-import Img18 from "../Assets/Linkedin.png";
+import Img17 from "../Assets/image.jpg";
+import Img18 from "../Assets/image (1).jpg";
 import Img19 from "../Assets/X .png";
 import Img20 from "../Assets/FB.png";
-import Img21 from "../Assets/Instagram.png";
+import Img21 from "../Assets/algram.png";
 import Img22 from "../Assets/NATESAN.jpg";
 import Img23 from "../Assets/aptiv.png"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
@@ -35,9 +35,9 @@ const stats = [
   { id: 3, label: "Sectors In Focus", value: 9 },
   { id: 4, label: "Active Teams", value: 89 },
   { id: 5, label: "Women Entrepreneurs", value: 25 },
-  { id: 6, label: "Total Number of Teams Travel", value: 148 },
-  { id: 7, label: "Registered Startups", value: 24 },
-  { id: 8, label: "Sustainability Focused Startups", value: 40 },
+  { id: 6, label: "Total Number of Teams Trained", value: 148 },
+  { id: 7, label: "Registered Startups", value: 26 },
+  { id: 8, label: "Sustainability Focused Teams", value: 40 },
 ];
 
 const Carousel = () => {
@@ -68,75 +68,43 @@ const Carousel = () => {
       ),
     },
     {
-      Img: Img8,
-      img: Img16,
-      name: "Akash Anand",
-      title: "Founder, Clueso",
+      Img: Img12,
+      img: Img11,
+      name: "Nithin Maloth",
+      title: "Founder, Nexuscare",
       content: (
         <>
           <p>
-            "Nirmaan has been an invaluable partner in our journey from concept
-            to a thriving startup. Their comprehensive support, including
-            technical assistance, financial aid, and access to a network of
-            experienced mentors, has been instrumental in our success. The
-            workshops provided us with essential skills, and the
-            state-of-the-art infrastructure offered an ideal environment for
-            innovation and growth. Nirmaan's dedication to nurturing young
-            entrepreneurs is truly commendable, and we are grateful for their
-            unwavering support."
+          From the very beginning, I've been with Nirmaan and have seen it evolve into a model of excellence. 
+          Medlock (now registered as Nexuscare) has benefitted immensely from the steadfast support of the Nirmaan 
+          team, particularly under the guidance of manager Nandini Ma’am. I recommend Nirmaan as the perfect starting 
+          point for any entrepreneur. The founder’s journey is typically solitary and perplexing, but with Nirmaan, it 
+          has been a collaborative and clear path.
+
           </p>
-          <p>
-            "Thanks to Nirmaan, Clueso has transformed from a mere idea into a
-            successful business."
-          </p>
+          
         </>
       ),
     },
     {
-      Img: Img8,
-      img: Img16,
-      name: "Akash Anand",
-      title: "Founder, Clueso",
+      Img: Img13,
+      img: Img14,
+      name: "Easwar Veeragandham",
+      title: "Founder, Krishaka",
       content: (
         <>
           <p>
-            "Nirmaan has been an invaluable partner in our journey from concept
-            to a thriving startup. Their comprehensive support, including
-            technical assistance, financial aid, and access to a network of
-            experienced mentors, has been instrumental in our success. The
-            workshops provided us with essential skills, and the
-            state-of-the-art infrastructure offered an ideal environment for
-            innovation and growth. Nirmaan's dedication to nurturing young
-            entrepreneurs is truly commendable, and we are grateful for their
-            unwavering support."
-          </p>
-          <p>
-            "Thanks to Nirmaan, Clueso has transformed from a mere idea into a
-            successful business."
-          </p>
+          "Krishaka has been part of the Nirmaan Preincubation Cell at IIT Madras for the past two years. 
+          Nirmaan provided us with invaluable mentorship, field contacts, manufacturing support, and prototyping funding.
+           Their organized talks with industry veterans enriched our knowledge and guided our growth. 
+           Thanks to their unwavering commitment to innovation, Krishaka could turn ideas into a feasible business. 
+           Special thanks to Nandhini mam for her constant support throughout our journey."
+
+        </p>
         </>
       ),
     },
-    {
-      Img: Img8,
-      img: Img16,
-      name: "Akash Anand",
-      title: "Founder, Clueso",
-      content: (
-        <>
-          <p>
-            "Nirmaan has been an invaluable partner in our journey from concept
-            to a thriving startup. Their for innovation and growth. Nirmaan's
-            dedication to nurturing young entrepreneurs is truly commendable,
-            and we are grateful for their unwavering support."
-          </p>
-          <p>
-            "Thanks to Nirmaan, Clueso has transformed from a mere idea into a
-            successful business."
-          </p>
-        </>
-      ),
-    },
+    
     // Additional slides can be added here.
   ];
 
@@ -204,16 +172,12 @@ const Carousel = () => {
           {/* Right Column: Arrows and Dots */}
           <div className="font- ">
             <div className="text-left ">
-              <h1 className="text-2xl font-semibold font-dmsans mt-6 ml-8 text-black">
+              <h1 className="text-[25px] font-semibold font-dmsans mt-6 ml-8 text-black">
                 Inspiring <span className="text-green-600">stories</span> from
                 the members
                 <br /> of the past
               </h1>
-              <p className="text-sm ml-8 mt-4 text-gray-900">
-                Nirmaan has been a valuable partner in our journey from concept
-                to a thriving startup.
-                <br /> Their comprehensive support...
-              </p>
+              
             </div>
             <div className="flex items-center space-x-4 ml-8 mt-4">
               <button onClick={prevSlide} className="flex items-center">
@@ -266,7 +230,12 @@ const StatCounter = ({ stat }) => {
                 stat.label === "Total Valuation" ||
                 stat.label === "Revenue Generated By Startups"
                   ? " Cr+"
-                  : "+"
+                  : stat.label === "Total Number of Teams Travel" || 
+                  stat.label === "Sectors In Focus" || 
+                  stat.label === "Women Entrepreneurs"
+        ? "+"
+        : ""
+                
               }
               duration={2} // Duration of the count-up animation in seconds
             />
@@ -287,14 +256,14 @@ const Home = () => {
         style={{ backgroundColor: "#4c9c50" }}
       >
         <div className="flex animate-marquee font-dmsans  text-white">
-          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
-          <span className="mx-6">NIRMAAN DEMO DAY: 27 Sept 2024</span>
+          <span className="mx-6"> DEMO DAY: 27 September 2024</span>
+          <span className="mx-6"> DEMO DAY: 27 September 2024</span>
+          <span className="mx-6"> DEMO DAY: 27 September 2024</span>
+          <span className="mx-6"> DEMO DAY: 27 September 2024</span>
+          <span className="mx-6"> DEMO DAY: 27 September 2024</span>
+          <span className="mx-6"> DEMO DAY: 27 September 2024</span>
+          <span className="mx-6"> DEMO DAY: 27 September 2024</span>
+          <span className="mx-6"> DEMO DAY: 27 September 2024</span>
         </div>
       </div>
       <div className="grid grid-cols-2 gap-3 ">
@@ -306,14 +275,14 @@ const Home = () => {
                 <div className="text-xl">THE PRE- INCUBATOR , IIT MADRAS</div>
               </h1>
               <p className="mt-8 text-gray-800 font-dmsans text-justify">
-                Nirmaan at IIT Madras (IITM), is the first of its kind dedicated
+                Nirmaan at IIT Madras is the first of its kind dedicated
                 pre-incubator on a college campus in the country. Nirmaan is
                 committed to advancing innovation and entrepreneurship by
                 providing comprehensive technical guidance and business
                 mentorship to students. Our support focuses on enhancing the
                 robustness of their business ideas and ensuring their economic
                 feasibility. Through mentorship and strategic insights, we help
-                students transform their concepts into successful, sustainable
+                students transform their ideas into successful, 
                 ventures.
               </p>
             </div>
@@ -327,7 +296,7 @@ const Home = () => {
             transition={{ duration: 0.5 }}
           >
             <motion.img
-              src={Img7}
+              src={Img6}
               className="h-[180px] border border-green-800 rounded-lg"
               alt="Image 1"
               initial={{ opacity: 0, x: -50 }}
@@ -342,7 +311,7 @@ const Home = () => {
             transition={{ duration: 0.5 }}
           >
             <motion.img
-              src={Img6}
+              src={Img15}
               className="h-[180px] border border-green-800 rounded-lg"
               alt="Image 9"
             />
@@ -354,7 +323,7 @@ const Home = () => {
             transition={{ duration: 0.5 }}
           >
             <motion.img
-              src={Img4}
+              src={Img17}
               className="h-21 border border-green-800 rounded-lg"
               alt="Image 1"
             />
@@ -366,7 +335,7 @@ const Home = () => {
             transition={{ duration: 0.5 }}
           >
             <motion.img
-              src={Img4}
+              src={Img18}
               className="h-21 border border-green-800 rounded-lg"
               alt="Image 1"
             />
@@ -386,9 +355,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-10 content-bottom">
+      <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-8 content-bottom">
         <div className="text-center">
-          <h1 className="text-2xl font-bold font-roboto text-green-600">
+          <h1 className="text-4xl font-bold font-roboto text-green-600">
             NIRMAAN IN NUMBERS
           </h1>
         </div>
@@ -402,19 +371,20 @@ const Home = () => {
           </div>
         </div>
         <div>
-      <div className="flex items-center justify-center text-2xl font-semibold mt-10 mb-8">
-        Our Supporters
+      <div className="flex items-center justify-center text-4xl font-bold mt-16 mb-8 font-roboto text-green-600">
+        INDUSTRIAL SUPPORTERS
       </div>
 
       <Marquee>
         <div className="flex space-x-6">
-          <img src={Img23} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img23} alt="supporter-logo" className="h-[100px] ms-10" />
           <img src={Img1} alt="supporter-logo" className="h-[100px]" />
           <img src={Img2} alt="supporter-logo" className="h-[100px]" />
           <img src={Img3} alt="supporter-logo" className="h-[35px] mt-7" />
           <img src={Img4} alt="supporter-logo" className="h-[50px] mt-6" />
           <img src={Img22} alt="supporter-logo" className="h-[50px] mt-5" />
           <img src={Img9} alt="supporter-logo" className="h-[100px]" />
+          <img src={Img21} alt="supporter-logo" className="h-[40px] mt-7 " />
           {/* <img src={Img1} alt="supporter-logo" className="h-[100px]" />
           <img src={Img1} alt="supporter-logo" className="h-[100px]" />
           <img src={Img1} alt="supporter-logo" className="h-[100px]" />

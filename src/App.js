@@ -8,6 +8,10 @@ import Programs from './Home/Programs';
 import Contact from './Home/Contact';
 import Incubation from './Home/Incubation';
 import Teams from './Home/Teams';
+import Media from './Home/Media';
+import Events from './Home/Events';
+import Mentor from './Home/Mentor';
+import ScholarShip from './Home/ScholarShip';
 const App = () => {
   return (
   <div>
@@ -18,6 +22,10 @@ const App = () => {
       <Route path="/contact-us" element={<Contact />} />
       <Route path="/incubation" element={<Incubation/>} />
       <Route path="/teams" element={<Teams/>} />
+      <Route path="/media" element={<Media />} />
+      <Route path="/mentor" element={<Mentor />} />
+      <Route path="/events" element={<Events />} />
+      <Route path="/scholarship" element={<ScholarShip />} />
     </Routes>
   </div>
   );

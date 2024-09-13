@@ -8,44 +8,45 @@ import img5 from '../Assets/chirag.png';
 import img6 from '../Assets/Prajagopal.jpeg';
 import img7 from '../Assets/Nandhini.jpeg';
 import img8 from '../Assets/student.jpeg';
+import img9 from '../Assets/vishy.jpg'
 import Footer from '../Components/Footer';
-
+import { FaLightbulb, FaNetworkWired, FaHandsHelping, FaChartLine, FaArrowAltCircleRight } from 'react-icons/fa';
 const Team = () => {
   const teamMembers = [
     {
       name: "Dr. Boby George",
-      title: "Professor,",
+      title: "Professor",
       organisation: 'IIT Madras',
       image: img2
     },
     {
       name: "Dr. Satyanarayanan Seshadri",
-      title: "Associate Professor,",
+      title: "Associate Professor",
       organisation: 'IIT Madras',
       image: img3,
     },
     {
       name: "Dr. Tamaswati Ghosh",
-      title: "Chief Executive Officer,",
+      title: "Chief Executive Officer",
       organisation: 'IITM Incubation Cell',
       image: img4
     },
     {
-      name: "Chirag Gupta",
-      title: "Managing Partner,",
+      name: "Mr. Chirag Gupta",
+      title: "Managing Partner",
       organisation: ' 8X Ventures',
       image: img5
     },
     {
-      name: "Member 5",
-      title: "Role and Organization",
-      organisation: ' 8X Ventures',
-      image: img6,
+      name: "Mr. Srinivasan Viswanathan ",
+      title: "Co-Founder",
+      organisation:'Ultimate Business Advisors LLP',
+      image: img9,
     },
     {
       name: "Dr. Prabhu Rajagopal",
-      title: "Professor & Faculty Advisor",
-      organisation: ' 8X Ventures',
+      title: "Faculty Advisor",
+      organisation: 'Office of Innovation & Entrepreneurship ',
       image: img6,
     },
     {
@@ -100,7 +101,8 @@ const Team = () => {
               <h3 className="text-xl font-semibold text-green-600">
                 {member.name}
               </h3>
-              <p className="text-gray-600">{member.title}</p>
+              <p className="text-gray-600 font-semibold">{member.title}</p>
+              <p className="text-gray-600">{member.organisation}</p>
             </div>
           ))}
         </div>
@@ -115,21 +117,72 @@ const Aboutus = () => {
         <Navbar/>
     <div >
     
-        <div className='text-center font-roboto text-2xl font-bold mt-32 '>What we do?</div>        
-        <div className='text-dmsans text-md mt-4 text-justify mr-16 ml-16 mb-6'>
-Nirmaan started its journey on 31st October, 2015, funded by the IITM batch of 1992. At Nirmaan, we are dedicated to delivering a rich entrepreneurial experience to our students, by providing a range of vital resources, including workspace, cutting-edge tools, expert mentorship, interactive workshops, funding opportunities, and valuable networking connections. 
-Our goal
-With a commitment of “Bringing Ideas to Life” our goal is to empower students to go beyond traditional career routes and cultivate their innovative ideas into thriving businesses. Through our strategic collaboration with the IITM Research Park's Incubation Cell, we create a seamless pipeline that connects students with real-world entrepreneurial resources and support, helping them turn their visions into viable enterprises. 
-Our mission and vision
-Vision: To catalyze entrepreneurship culture and develop a strong ecosystem to transform creative ideas into successful startups in India.
-Mission: To provide infrastructure, mentorship, funding, workspace, workshops, and network to IITM students to help them turn their creative ideas into viable enterprises. 
-Our Programs
-Nirmaan is currently offering two programs for aspiring entrepreneurs; Pratham and Akshar. The Pratham program, named after the Sanskrit word for "first," offers an 8-week immersive training experience designed to equip aspiring entrepreneurs with the foundational knowledge and skills necessary for start-up success. This phase covers essential start-up principles, helping participants to understand start-up basics and nuances. 
-At the conclusion of the Pratham phase, teams that excel will advance to the Akshar phase. In this subsequent phase, participants will focus on developing their Minimum Viable Product (MVP) while delving into advanced business concepts such as pricing strategies, sales tactics, and marketing techniques.
-In both the Pratham and Akshar phases, Nirmaan fuels the entrepreneurial journey of the student teams with funding, empowering them to cover expenses and craft their first Minimum Viable Products.<br/>
-        </div>  
+         
         
-    </div>
+
+    <div className="mt-[88px] font-dmsans">
+                <div className="bg-green-100">
+                        <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Events</span></div>
+                        <h2 className="text-5xl font-semibold text-gray-500 pt-20 text-center pb-10">About Us</h2>
+                        {/* <div className="text-center pt-3 pb-3"> Nirmaan </div> */}
+                </div>
+      <div className="max-w-7xl mx-auto mt-10">
+        {/* Section Header with Gradient */}
+        <div className="text-center">
+          
+          <p className="mt-2 text-3xl leading-8 font-bold text-green-600 sm:text-4xl font-dmsans">
+            Nirmaan - Empowering Innovators
+          </p>
+          <p className="mt-4 text-xl text-gray-600 max-w-xl mx-auto font-dmsans">
+            Transforming students' innovative ideas into successful startups with mentorship, funding, and resources.
+          </p>
+        </div>
+
+        {/* What We Do Section */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold text-green-600 text-center font-dmsans">
+            What We Do
+          </h3>
+          <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto text-center font-dmsans">
+            Nirmaan, the pre-incubator, started its journey on 31st October 2015, funded by the IITM batch of 1992. At Nirmaan, we are dedicated to delivering a rich entrepreneurial experience to our students by providing essential resources such as workspace, cutting-edge tools, expert mentorship, interactive workshops, funding opportunities, and valuable networking connections.
+          </p>
+        </div>
+
+        {/* Our Goal Section */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold text-green-600 text-center font-dmsans">
+            Our Goal
+          </h3>
+          <p className="mt-4 text-lg text-gray-900 max-w-3xl mx-auto text-center font-dmsans">
+            With a commitment to “Bringing Ideas to Life,” our goal is to empower students to go beyond traditional career routes and cultivate their innovative ideas into thriving businesses. Through strategic collaboration with the IITM Research Park's Incubation Cell, we connect students with real-world entrepreneurial resources and support to help them turn their visions into viable enterprises.
+          </p>
+        </div>
+
+        
+
+        {/* Mission and Vision Section */}
+        <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 px-20 mb-10">
+          {/* Vision */}
+          <div className="relative bg-green-50 p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+            <h4 className="text-lg font-bold text-green-600 mb-4 font-dmsans">Vision</h4>
+            <p className="text-gray-700 font-dmsans">
+              Catalyzing entrepreneurship culture by developing a strong ecosystem that transforms creative ideas into successful startups in India.
+            </p>
+          </div>
+
+          {/* Mission */}
+          <div className="relative bg-green-50 p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+            <h4 className="text-lg font-bold text-green-600 mb-4">Mission</h4>
+            <p className="text-gray-700">
+              Providing infrastructure, mentorship, funding, and workspace to help IITM students turn their innovative ideas into thriving enterprises.
+            </p>
+          </div>
+        </div>
+
+        
+      </div>
+    </div></div>
+    
     <Team/>
     <Footer/>
     </div>
