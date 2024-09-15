@@ -4,6 +4,7 @@ import axios from "axios";
 import Footer from "../Components/Footer";
 import Popover from "../Components/Popover";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 function Teams() {
     const [data, setData] = useState([]);
     const [selectedTeam, setSelectedTeam] = useState(null); 
@@ -28,8 +29,11 @@ function Teams() {
     return (
         <div>
             <Navbar />
-            <div className="mt-[130px] font-dmsans">
-                <h2 className="text-center text-3xl font-semibold">All Startups</h2>
+            <div className="mt-[88px]">
+                <div className="bg-green-100">
+                        <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Teams</span></div>
+                        <h2 className="md:text-5xl font-semibold text-gray-500 pt-20 pb-10 text-center sm:text-3xl">All Startups</h2>
+                </div>                
                 <div className="grid grid-cols-4 gap-10 mt-10 px-10">
                     {data.map((item, index) => (
                         <div>

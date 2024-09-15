@@ -12,6 +12,8 @@ import Media from './Home/Media';
 import Events from './Home/Events';
 import Mentor from './Home/Mentor';
 import ScholarShip from './Home/ScholarShip';
+import Ugfir from './Home/Ugfir';
+import Kgmg from './Home/Kgmg';
 const App = () => {
   return (
   <div>
@@ -26,6 +28,8 @@ const App = () => {
       <Route path="/mentor" element={<Mentor />} />
       <Route path="/events" element={<Events />} />
       <Route path="/scholarship" element={<ScholarShip />} />
+      <Route path="/scholarship/ugfir" element={<Ugfir />} />
+      <Route path="/scholarship/kgmg" element={<Kgmg/>} />
     </Routes>
   </div>
   );

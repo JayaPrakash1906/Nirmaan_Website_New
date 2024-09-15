@@ -122,7 +122,7 @@ const Aboutus = () => {
 
     <div className="mt-[88px] font-dmsans">
                 <div className="bg-green-100">
-                        <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Events</span></div>
+                        <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">About</span></div>
                         <h2 className="text-5xl font-semibold text-gray-500 pt-20 text-center pb-10">About Us</h2>
                         {/* <div className="text-center pt-3 pb-3"> Nirmaan </div> */}
                 </div>

@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-
-      
-      
       borderWidth: {
         '10': '10px',
         '12': '12px',

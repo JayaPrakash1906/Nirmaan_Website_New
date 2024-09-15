@@ -97,12 +97,6 @@ function Incubation() {
         </h2>
         <WhatWeOffer />
       </section>
-      <section className="mb-16  p-8">
-        <h2 className="text-center text-3xl font-bold text-gray-800 mb-8">
-          Eligibility Criteria
-        </h2>
-        <Eligibility />
-      </section>
       <section className="mb-16 bg-gradient-to-r from-green-100 via-white to-green-200 shadow-md rounded-lg p-8">
         <h2 className="text-center text-3xl font-bold font-dmsans text-gray-800 mb-8">
           Application Process
