@@ -16,115 +16,69 @@ import img13 from "../Assets/Sathyanarayana N.  Gummadi.jpg";
 import img14 from "../Assets/Sanjib Senapati (1).jpg";
 import img15 from "../Assets/samad-jan2021pic3-942x1024-1-276x300.jpg";
 import Footer from "../Components/Footer";
-import { FaArrowAltCircleRight } from "react-icons/fa";
-function Mentor(){
+import { FaArrowAltCircleRight, FaLinkedin } from "react-icons/fa";
+
+function Mentor() {
+    const mentors = [
+        { img: img5, name: "Dr. Satyanarayanan S", role: "Co-Founder", company: "Shakti", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img7, name: "Prof. Parasuraman Swaminathan", role: "Advisor", company: "Uniscreen Solutions", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img8, name: "Dr. Tiju Thomas", role: "Advisor", company: "Pestokart", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img2, name: "Dr. Sivasrinivasu Devadula", role: "Co-Founder & Advisor", company: "MachIntell", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img3, name: "Prof. Krishnan Balasubramaniam", role: "Mentor & Advisor", company: "iGenie", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img9, name: "Prof. Shyama Prasad das", role: "Advisor", company: "Renerzies", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img10, name: "Prof. Dhiman Chatterjee", role: "Advisor", company: "Renerzies", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img4, name: "Dr. Satyesh Kumar Yadav", role: "Co-Founder", company: "MatLoad Solutions", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img6, name: "Prof. Indumathi Manivannan Nambi", role: "Advisor", company: "EcoFarm", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img13, name: "Prof. Sathiya N. Gummadi", role: "Co-Founder", company: "SSS Internation Drug Discovery & Development Research Pvt Ltd", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img12, name: "Prof. P. Ramkumar", role: "Advisor", company: "Bhaskara Engineering Services", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img14, name: "Dr. Sanjib Senapati", role: "Advisor", company: "Proidesol", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img11, name: "Dr. Vidya Praveen Bhallamudi", role: "Advisor", company: "OptoMag Diagnostics", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img15, name: "Prof. Abdus Samad", role: "Co-Founder", company: "Tarang", link: "https://www.linkedin.com/in/your-profile" }
+    ];
+
     return (
         <div>
             <Navbar />
-
             <div className="mt-[88px] font-dmsans">
                 <div className="bg-green-100">
-                        <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Mentors</span></div>
-                        <h2 className="text-5xl font-semibold text-gray-500 pt-24 text-center">Faculty Advisors</h2>
-                        <div className="text-center pt-2 pb-3">Nirmaan</div>
+                    <div className="p-5 flex">
+                        <span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span>
+                        <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12} /></span>
+                        <span className="text-black font-semibold">Mentors</span>
+                    </div>
+                    <h2 className="text-5xl font-semibold text-gray-500 pt-24 text-center">Faculty Advisors</h2>
+                    <div className="text-center pt-2 pb-3">Nirmaan</div>
                 </div>
                 <div className="mt-10">
-                        <div className="grid grid-cols-4 gap-5 px-10 mb-8">
-                               <div className="border py-3">
-                                    <img src={img5} alt='' className="flex justify-center items-center mx-auto rounded-sm h-30 w-40 object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Dr. Satyanarayanan S</h3>   
-                                    <p className="text-sm text-center">Co-Founder</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Shakti</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img1} alt='' className="flex justify-center items-center mx-auto rounded-sm h-30 w-40 object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. Prabhu Rajagopal</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Drop WaterTech</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img7} alt='' className="flex justify-center items-center mx-auto rounded-sm h-30 w-40 object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. Parasuraman Swaminathan</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Uniscreen Solutions</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img8} alt='' className="flex justify-center items-center mx-auto rounded-sm h-30 w-40 object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Dr. Tiju Thomas</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Pestokart</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img2} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Dr. Sivasrinivasu Devadula</h3>   
-                                    <p className="text-sm text-center">Co-Founder & Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">MachIntell</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img3} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. Krishnan Balasubramaniam</h3>   
-                                    <p className="text-sm text-center">Mentor & Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">iGenie</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img9} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. Shyama Prasad das</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Renerzies</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img10} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. Dhiman Chatterjee</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Renerzies</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img4} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500 object-top" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Dr. Satyesh Kumar Yadav</h3>   
-                                    <p className="text-sm text-center">Co-Founder</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">MatLoad Solutions</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img6} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500 object-top" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. Indumathi Manivannan Nambi</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">EcoFarm</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img13} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500 object-top" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. Sathiya N. Gummadi</h3>   
-                                    <p className="text-sm text-center">Co-Founder</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">SSS Internation Drug Discovery & Development Research Pvt Ltd</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img12} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500 object-top" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. P. Ramkumar</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Bhaskara Engineering Services</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img14} alt='' className="flex justify-center items-center mx-auto rounded-sm h-30 w-40 object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Dr. Sanjib Senapati</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Proidesol</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img11} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Dr. Vidya Praveen Bhallamudi</h3>   
-                                    <p className="text-sm text-center">Advisor</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">OptoMag Diagnostics</p>                                                
-                               </div>
-                               <div className="border py-3">
-                                    <img src={img15} alt='' className="flex justify-center items-center mx-auto rounded-sm h-[144px] w-[144px] object-cover mb-4 hover:rounded-full transition-all duration-500" />  
-                                    <h3 className="text-md font-semibold text-green-600 text-center">Prof. Abdus Samad</h3>   
-                                    <p className="text-sm text-center">Co-Founder</p>      
-                                    <p className="text-sm text-center font-semibold text-gray-500">Tarang</p>                                                
-                               </div>
-                        </div>
+                    <div className="grid grid-cols-4 gap-5 px-10 mb-8">
+                        {mentors.map((mentor, index) => (
+                            <div key={index} className="border py-3">
+                                <div className="relative flex justify-center items-center mx-auto w-[144px] h-[144px] mb-4">
+                                    <img 
+                                        src={mentor.img} 
+                                        alt={mentor.name} 
+                                        className="rounded-sm w-full h-full object-cover transition-all duration-500 hover:rounded-full hover:filter hover:brightness-50 "
+                                    />
+                                    <a 
+                                        href={mentor.link} 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-500"
+                                    >
+                                        <FaLinkedin size={25} className="text-white text-3xl" />
+                                    </a>
+                                </div>
+                                <h3 className="text-md font-semibold text-green-600 text-center">{mentor.name}</h3>
+                                <p className="text-sm text-center">{mentor.role}</p>
+                                <p className="text-sm text-center font-semibold text-gray-500">{mentor.company}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
             <Footer />
         </div>
-    )
+    );
 }
+
 export default Mentor;

@@ -24,15 +24,15 @@ const Navbar = () => {
             <span>HOME</span>
           </button> */}
           <button type="button" onClick={() => (window.location.href = "/About_us")}
-            className="active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md">
+            className="active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md pt-6">
             <span>ABOUT</span>
           </button>
           <div className="relative group">
             <button type="button"
-              className="active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md">
+              className="active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md pt-6">
               <span>PROGRAMS</span>
             </button>
-            <div className="absolute hidden bg-white text-black mt-8 shadow-lg rounded-sm group-hover:block right-[-39px] border-t-4 border-green-700">
+            <div className="absolute hidden bg-white text-black mt-1 shadow-lg rounded-sm group-hover:block right-[-39px] border-t-4 border-green-700">
               <button
                 className="block px-5 py-2 text-sm hover:bg-gray-200 w-full text-left"
                 onClick={() => (window.location.href = "/incubation")}
@@ -41,17 +41,17 @@ const Navbar = () => {
               </button>
               <button
                 className="block px-4 py-2 text-sm hover:bg-gray-200 w-full text-left"
-                onClick={() => (window.location.href = "/pratham")}
+                onClick={() => (window.location.href = "/scholarship")}
               >
                 SCHOLARSHIP
               </button>
             </div>
           </div>
-          <button onClick={() => (window.location.href = "/events")}><span>EVENTS</span></button>
-          <button onClick={() => (window.location.href = "/teams")}><span>TEAMS</span></button>
-          <button onClick={() => (window.location.href = "/mentor")}><span>MENTORS</span></button>
-          <button onClick={() => (window.location.href = "/media")}><span>MEDIA</span></button>
-          <button onClick={() => (window.location.href = "/contact-us")}><span>CONTACT</span></button>
+          <button onClick={() => (window.location.href = "/events")} className="pt-6"><span>EVENTS</span></button>
+          <button onClick={() => (window.location.href = "/teams")} className="pt-6"><span>TEAMS</span></button>
+          <button onClick={() => (window.location.href = "/mentor")} className="pt-6"><span>MENTORS</span></button>
+          <button onClick={() => (window.location.href = "/media")} className="pt-6"><span>MEDIA</span></button>
+          <button onClick={() => (window.location.href = "/contact-us")} className="pt-6"><span>CONTACT</span></button>
         </div>
       </div>
     </div>
