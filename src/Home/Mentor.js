@@ -20,9 +20,9 @@ import { FaArrowAltCircleRight, FaLinkedin } from "react-icons/fa";
 
 function Mentor() {
     const mentors = [
-        { img: img5, name: "Dr. Satyanarayanan S", role: "Co-Founder", company: "Shakti", link: "https://www.linkedin.com/in/your-profile" },
-        { img: img7, name: "Prof. Parasuraman Swaminathan", role: "Advisor", company: "Uniscreen Solutions", link: "https://www.linkedin.com/in/your-profile" },
-        { img: img8, name: "Dr. Tiju Thomas", role: "Advisor", company: "Pestokart", link: "https://www.linkedin.com/in/your-profile" },
+        { img: img5, name: "Dr. Satyanarayanan S", role: "Co-Founder", company: "Shakti", link: "https://www.linkedin.com/in/satyaseshadri/" },
+        { img: img7, name: "Prof. Parasuraman Swaminathan", role: "Advisor", company: "Uniscreen Solutions", link: "https://www.linkedin.com/in/parasuraman-swaminathan-19032533/" },
+        { img: img8, name: "Dr. Tiju Thomas", role: "Advisor", company: "Pestokart", link: "https://in.linkedin.com/in/tiju-thomas-4826198" },
         { img: img2, name: "Dr. Sivasrinivasu Devadula", role: "Co-Founder & Advisor", company: "MachIntell", link: "https://www.linkedin.com/in/your-profile" },
         { img: img3, name: "Prof. Krishnan Balasubramaniam", role: "Mentor & Advisor", company: "iGenie", link: "https://www.linkedin.com/in/your-profile" },
         { img: img9, name: "Prof. Shyama Prasad das", role: "Advisor", company: "Renerzies", link: "https://www.linkedin.com/in/your-profile" },
