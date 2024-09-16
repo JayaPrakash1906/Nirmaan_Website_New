@@ -65,7 +65,7 @@ const Team = () => {
 
   return (
     <div className="bg-gray-200 py-8 px-4">
-      <h2 className='text-center text-2xl mt-2 mb-4 text-dmsans font-bold'>Advisory Board Members</h2>
+      <h2 className='text-center text-2xl mt-2 mb-4 text-dmsans font-bold text-green-600'>Advisory Board Members</h2>
       <div className="max-w-7xl mx-auto space-y-8">
         {/* First row with 4 members */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
@@ -88,7 +88,7 @@ const Team = () => {
 
 
         {/* Second row with 3 members */}
-        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold'>Executive Team</h2>
+        <h2 className='text-center text-2xl mt-1 mb-3 text-dmsans font-bold text-green-600'>Executive Team</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-14">
           {teamMembers.slice(5, 8).map((member, index) => (
@@ -123,7 +123,7 @@ const Aboutus = () => {
     <div className="mt-[88px] font-dmsans">
                 <div className="bg-green-100">
                         <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">About</span></div>
-                        <h2 className="text-5xl font-semibold text-gray-500 pt-20 text-center pb-10">About Us</h2>
+                        <h2 className="text-5xl font-semibold text-green-600 pt-8 text-center pb-10">About Us</h2>
                         {/* <div className="text-center pt-3 pb-3"> Nirmaan </div> */}
                 </div>
       <div className="max-w-7xl mx-auto mt-10">
@@ -133,7 +133,7 @@ const Aboutus = () => {
           <p className="mt-2 text-3xl leading-8 font-bold text-green-600 sm:text-4xl font-dmsans">
             Nirmaan - Empowering Innovators
           </p>
-          <p className="mt-4 text-xl text-gray-600 max-w-xl mx-auto font-dmsans">
+          <p className="mt-4 text-lg text-gray-600 max-w-xl mx-auto font-dmsans">
             Transforming students' innovative ideas into successful startups with mentorship, funding, and resources.
           </p>
         </div>

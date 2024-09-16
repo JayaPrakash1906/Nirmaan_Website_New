@@ -46,8 +46,8 @@ function Mentor() {
                         <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12} /></span>
                         <span className="text-black font-semibold">Mentors</span>
                     </div>
-                    <h2 className="text-5xl font-semibold text-gray-500 pt-24 text-center">Faculty Advisors</h2>
-                    <div className="text-center pt-2 pb-3">Nirmaan</div>
+                    <h2 className="text-5xl font-semibold text-green-600 pt-8 pb-5 text-center">Faculty Advisors</h2>
+                    
                 </div>
                 <div className="mt-10">
                     <div className="grid grid-cols-4 gap-5 px-10 mb-8">

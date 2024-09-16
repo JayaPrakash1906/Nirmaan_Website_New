@@ -44,7 +44,7 @@ const Eligibility = () => {
           <div className="mb-4">
             <FaChalkboard size={40} className="text-green-600 mx-auto" />
           </div>
-          <h3 className="text-xl font-semibold mb-2 text-gray-800">Workshop</h3>
+          <h3 className="text-xl font-semibold mb-2 text-gray-800">Workshops</h3>
           <p className="text-gray-600">Seasoned professionals and industry experts lead immersive workshops covering vital startup topics such as customer discovery, lean startup principles, business model canvas, pitching techniques, and design thinking.</p>
         </div>
       </div>

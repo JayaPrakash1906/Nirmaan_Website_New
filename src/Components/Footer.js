@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="flex items-start">
               <FaLocationDot className="mr-2 h-6 w-6" />
               <div>
-                <p>Sudha Shankar Innovation Hub</p>
+                <p>Sudha & Shankar Innovation Hub</p>
                 <p>IIT Madras, Chennai</p>
                 <p>600036, India</p>
               </div>
