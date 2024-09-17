@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3ed880d.css",
-    "main.js": "/static/js/main.d011d78c.js",
+    "main.css": "/static/css/main.10061cf8.css",
+    "main.js": "/static/js/main.b22ac1a2.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/image (1).jpg": "/static/media/image (1).0cba5c537791773a3e0d.jpg",
     "static/media/iitm logo.png": "/static/media/iitm logo.0105d85b3475030de3d8.png",
@@ -12,8 +12,10 @@
     "static/media/1.jpeg": "/static/media/1.ae6dd2c64412fddf2a49.jpeg",
     "static/media/nirmaan logo.png": "/static/media/nirmaan logo.8b8518964b925a2a2d57.png",
     "static/media/PS.jpeg": "/static/media/PS.eb07479c020ab7224a6b.jpeg",
+    "static/media/ourgoal.jpg": "/static/media/ourgoal.774e6894a441c09d7de1.jpg",
     "static/media/IMN - Indumathi Nambi.jpg": "/static/media/IMN - Indumathi Nambi.0cea9d5fa836776de009.jpg",
     "static/media/Magazine_Innosphere_Final (19).jpg": "/static/media/Magazine_Innosphere_Final (19).4d5e71551be4f2a79ac6.jpg",
+    "static/media/incubation-researchpark-media.png": "/static/media/incubation-researchpark-media.baa25b180cf0649aaa37.png",
     "static/media/scholarship-image.png": "/static/media/scholarship-image.8f63cdcc4daf662512b2.png",
     "static/media/DemoDay2024.png": "/static/media/DemoDay2024.752acae4336862f666bc.png",
     "static/media/Eashwar.png": "/static/media/Eashwar.5a1498fc497d894c964d.png",
@@ -33,9 +35,11 @@
     "static/media/student.jpeg": "/static/media/student.c22cb6ed3a1ba47d566a.jpeg",
     "static/media/tiju.png": "/static/media/tiju.db7aaf870acae8856982.png",
     "static/media/chirag.png": "/static/media/chirag.efc4736f61be40de6e6a.png",
+    "static/media/E-cell-iitm.jpeg": "/static/media/E-cell-iitm.fea05942ac1237f6b375.jpeg",
     "static/media/sobusyoutube.jpg": "/static/media/sobusyoutube.ed0a1655c1d2f8b91756.jpg",
     "static/media/7.jpeg": "/static/media/7.a556d3b3f01c3db5445e.jpeg",
     "static/media/InnospherePodcast.jpeg": "/static/media/InnospherePodcast.8d20f243af27f8e4ac31.jpeg",
+    "static/media/what we do image.jpg": "/static/media/what we do image.3a3ceda68fa208db9c5a.jpg",
     "static/media/pr.png": "/static/media/pr.3a1f09bbb1c895b7ef70.png",
     "static/media/newsletter3.png": "/static/media/newsletter3.a655301f0bea194e59b1.png",
     "static/media/X .png": "/static/media/X .da7e84e7c2ad19d42d1a.png",
@@ -57,12 +61,12 @@
     "static/media/Seafund-Logo-1.webp": "/static/media/Seafund-Logo-1.3cd05bb4e57e1495e904.webp",
     "static/media/hyperverge-logo.webp": "/static/media/hyperverge-logo.0d916a5ebaafd30b2687.webp",
     "index.html": "/index.html",
-    "main.a3ed880d.css.map": "/static/css/main.a3ed880d.css.map",
-    "main.d011d78c.js.map": "/static/js/main.d011d78c.js.map",
+    "main.10061cf8.css.map": "/static/css/main.10061cf8.css.map",
+    "main.b22ac1a2.js.map": "/static/js/main.b22ac1a2.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3ed880d.css",
-    "static/js/main.d011d78c.js"
+    "static/css/main.10061cf8.css",
+    "static/js/main.b22ac1a2.js"
   ]
 }

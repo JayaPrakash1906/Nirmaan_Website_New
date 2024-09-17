@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import img1 from '../Assets/download (1).jpg';
+import img1 from '../Assets/what we do image.jpg';
 import img2 from '../Assets/BobyGeorge.jpg';
 import img3 from '../Assets/satyaseshadri.png';
 import img4 from '../Assets/u3ryrzl7506qix6ydqph.webp';
@@ -9,6 +9,7 @@ import img6 from '../Assets/Prajagopal.jpeg';
 import img7 from '../Assets/Nandhini.jpeg';
 import img8 from '../Assets/student.jpeg';
 import img9 from '../Assets/vishy.jpg'
+import img10 from '../Assets/ourgoal.jpg'
 import Footer from '../Components/Footer';
 import { FaLightbulb, FaNetworkWired, FaHandsHelping, FaChartLine, FaArrowAltCircleRight } from 'react-icons/fa';
 const Team = () => {
@@ -121,34 +122,57 @@ const Aboutus = () => {
         
 
     <div className="mt-[88px] font-dmsans">
-                <div className="bg-green-100">
-                        <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">About</span></div>
-                        <h2 className="text-5xl font-semibold text-green-600  text-center pt-8 pb-2 ">About Us</h2>
-                        {/* <div className="text-center pt-3 pb-3"> Nirmaan </div> */}
-                </div>
+    <div className="bg-green-100">
+    <div className="p-5 flex">
+        <span>
+            <a href="/" className="text-gray-500 font-semibold hover:underline">Home</a>
+        </span>
+        <span className="p-2 text-gray-500">
+            <FaArrowAltCircleRight size={12} />
+        </span>
+        <span className="text-black font-semibold">About</span>
+    </div>
+    <h2 className="text-5xl font-semibold text-green-600 text-center pt-3 pb-6">About Us</h2>
+    {/* <div className="text-center pt-3 pb-3"> Nirmaan </div> */}
+</div>
+
       <div className="max-w-7xl mx-auto mt-10">
         {/* Section Header with Gradient */}
         
 
         {/* What We Do Section */}
         <div className="mt-16">
+        <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 px-20 mb-10">
+          <div>
           <h3 className="text-2xl font-bold text-green-600 text-center font-dmsans">
             What We Do
           </h3>
-          <p className="mt-4 text-md text-gray-600 max-w-3xl mx-auto text-center font-dmsans">
+          <p className="mt-4 text-md text-gray-600 max-w-3xl mx-auto text-justify font-dmsans">
             Nirmaan, the pre-incubator, started its journey on 31st October 2015, funded by the IITM batch of 1992. At Nirmaan, we are dedicated to delivering a rich entrepreneurial experience to our students by providing essential resources such as workspace, cutting-edge tools, expert mentorship, interactive workshops, funding opportunities, and valuable networking connections.
           </p>
+        </div>
+        <div><img src={img1}
+              className="h-[200px] border border rounded-lg ml-5"
+              alt="Image 1"/>
+        </div></div>
         </div>
 
         {/* Our Goal Section */}
         <div className="mt-16">
-          
+        <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 px-20 mb-10">
+          <div><img src={img10}
+              className="w-[800px] h-[240px] border border rounded-lg mr-5"
+              alt="Image 1"/>
+        </div>
+          <div>
           <h3 className="text-2xl font-bold text-green-600 text-center font-dmsans">
             Our Goal
           </h3>
-          <p className="mt-4 text-md text-gray-900 max-w-3xl mx-auto text-center font-dmsans">
+          <p className="mt-4 text-md text-gray-900 max-w-3xl mx-auto text-justify font-dmsans">
             With a commitment to “Bringing Ideas to Life,” our goal is to empower students to go beyond traditional career routes and cultivate their innovative ideas into thriving businesses. Through strategic collaboration with the IITM Research Park's Incubation Cell, we connect students with real-world entrepreneurial resources and support to help them turn their visions into viable enterprises.
           </p>
+          </div>
+        </div>
         </div>
 
         

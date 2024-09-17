@@ -9,8 +9,8 @@ function Contact(){
             <Navbar />
             <div className="mt-[88px] font-dmsans">
             <div className="md:bg-green-100">
-                        <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Contact us</span></div>
-                        <h2 className="md:text-5xl font-semibold text-green-600 pt-8 text-center pb-10 sm:text-3xl">Contact us</h2>
+                        <div className="pt-5 pl-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">Contact us</span></div>
+                        <h2 className="md:text-5xl font-semibold text-green-600 pt-7 pb-6 text-center pb-10 sm:text-3xl">Contact us</h2>
                         {/* <div className="text-center pt-3 pb-3"> Nirmaan </div> */}
                 </div>
 

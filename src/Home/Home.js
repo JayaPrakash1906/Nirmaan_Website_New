@@ -264,7 +264,7 @@ const StatCounter = ({ stat }) => {
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Navbar />
       <div
         className="relative overflow-hidden whitespace-nowrap  mt-32"
@@ -291,7 +291,7 @@ const Home = () => {
             <div className="text-center">
               <h1 className=" font-bold font-dmsans">
                 <span className="text-green-600 text-6xl">NIRMAAN</span> <br />
-                <div className="text-xl">THE PRE- INCUBATOR , IIT MADRAS</div>
+                <div className="text-xl">THE PRE- INCUBATOR, IIT MADRAS</div>
               </h1>
               <p className="mt-8 text-gray-900 font-dmsans text-justify">
                 Nirmaan at IIT Madras is the first of its kind dedicated

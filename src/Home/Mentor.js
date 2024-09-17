@@ -42,12 +42,12 @@ function Mentor() {
             <Navbar />
             <div className="mt-[88px] font-dmsans">
                 <div className="bg-green-100">
-                    <div className="p-5 flex">
+                    <div className="pt-5 pl-5 flex">
                         <span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span>
                         <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12} /></span>
                         <span className="text-black font-semibold">Mentors</span>
                     </div>
-                    <h2 className="text-5xl font-semibold text-green-600 pt-8 pb-5 text-center">Faculty Advisors</h2>
+                    <h2 className="text-5xl font-semibold text-green-600 pt-7 pb-6 text-center">Faculty Advisors</h2>
                     
                 </div>
                 <div className="mt-10">
