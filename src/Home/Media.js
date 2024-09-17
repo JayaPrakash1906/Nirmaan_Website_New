@@ -42,7 +42,8 @@ function Media(){
                                         </div>
                                         <div className="ps-5 font-semibold text-md">On Medium.com, Nirmaan brings you stories, ideas, and insights to inspire and empower. </div>
                                         <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 11, 2024</div>
-                                        <center><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></center>
+                                        <center><a href="https://medium.com/@nirmaan_iitm"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
+                                        
                                     </div>
                         </div>
                         </div>
@@ -55,7 +56,7 @@ function Media(){
                                         </div>
                                         <div className="ps-5 font-semibold text-md">Nirmaan News Letter - January 2021 to January 2022 Edition</div>
                                         <div className="ps-5 text-sm text-gray-500 mt-2">Updated: Sept 11, 2024</div>
-                                        <center><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></center>
+                                        <center><a href="https://acr.iitm.ac.in/wp-content/uploads/2022/07/NirmaanNewsletter2021_22-compressed.pdf"><button className="bg-green-400 px-2 py-2 rounded-full mt-1">View More</button></a></center>
                                     </div>
                                     <div className="border rounded-md pb-2">
                                         <div className="flex justify-center items-center">

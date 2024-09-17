@@ -39,9 +39,9 @@ const Footer = () => {
             <h3 className="font-semibold mt-4 mb-3">Quick Links</h3>
             <div className="grid grid-cols-2 gap-2">
               <div>
-                Blog <br />
-                Innosphere Podcast <br />
-                Innosphere Magazine <br />
+                <a href="/media">Blog <br /></a>
+                <a href="/media">Innosphere Podcast <br /></a>
+                <a href="/media">Innosphere Magazine <br /></a>
               </div>
             </div>
           </div>

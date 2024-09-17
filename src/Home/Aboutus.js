@@ -123,37 +123,30 @@ const Aboutus = () => {
     <div className="mt-[88px] font-dmsans">
                 <div className="bg-green-100">
                         <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">About</span></div>
-                        <h2 className="text-5xl font-semibold text-green-600 pt-8 text-center pb-10">About Us</h2>
+                        <h2 className="text-5xl font-semibold text-green-600  text-center pt-8 pb-2 ">About Us</h2>
                         {/* <div className="text-center pt-3 pb-3"> Nirmaan </div> */}
                 </div>
       <div className="max-w-7xl mx-auto mt-10">
         {/* Section Header with Gradient */}
-        <div className="text-center">
-          
-          <p className="mt-2 text-3xl leading-8 font-bold text-green-600 sm:text-4xl font-dmsans">
-            Nirmaan - Empowering Innovators
-          </p>
-          <p className="mt-4 text-lg text-gray-600 max-w-xl mx-auto font-dmsans">
-            Transforming students' innovative ideas into successful startups with mentorship, funding, and resources.
-          </p>
-        </div>
+        
 
         {/* What We Do Section */}
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-green-600 text-center font-dmsans">
             What We Do
           </h3>
-          <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto text-center font-dmsans">
+          <p className="mt-4 text-md text-gray-600 max-w-3xl mx-auto text-center font-dmsans">
             Nirmaan, the pre-incubator, started its journey on 31st October 2015, funded by the IITM batch of 1992. At Nirmaan, we are dedicated to delivering a rich entrepreneurial experience to our students by providing essential resources such as workspace, cutting-edge tools, expert mentorship, interactive workshops, funding opportunities, and valuable networking connections.
           </p>
         </div>
 
         {/* Our Goal Section */}
         <div className="mt-16">
+          
           <h3 className="text-2xl font-bold text-green-600 text-center font-dmsans">
             Our Goal
           </h3>
-          <p className="mt-4 text-lg text-gray-900 max-w-3xl mx-auto text-center font-dmsans">
+          <p className="mt-4 text-md text-gray-900 max-w-3xl mx-auto text-center font-dmsans">
             With a commitment to “Bringing Ideas to Life,” our goal is to empower students to go beyond traditional career routes and cultivate their innovative ideas into thriving businesses. Through strategic collaboration with the IITM Research Park's Incubation Cell, we connect students with real-world entrepreneurial resources and support to help them turn their visions into viable enterprises.
           </p>
         </div>
@@ -164,7 +157,7 @@ const Aboutus = () => {
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 px-20 mb-10">
           {/* Vision */}
           <div className="relative bg-green-50 p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105">
-            <h4 className="text-lg font-bold text-green-600 mb-4 font-dmsans">Vision</h4>
+            <h4 className="text-md font-bold text-green-600 mb-4 font-dmsans">Vision</h4>
             <p className="text-gray-700 font-dmsans">
               Catalyzing entrepreneurship culture by developing a strong ecosystem that transforms creative ideas into successful startups in India.
             </p>
@@ -172,7 +165,7 @@ const Aboutus = () => {
 
           {/* Mission */}
           <div className="relative bg-green-50 p-8 rounded-lg shadow-lg transform transition-transform hover:scale-105">
-            <h4 className="text-lg font-bold text-green-600 mb-4">Mission</h4>
+            <h4 className="text-md font-bold text-green-600 mb-4">Mission</h4>
             <p className="text-gray-700">
               Providing infrastructure, mentorship, funding, and workspace to help IITM students turn their innovative ideas into thriving enterprises.
             </p>

@@ -10,13 +10,13 @@ function Kgmg() {
         <div className="mt-[88px] font-dmsans">
                 <div className="md:bg-green-100">
                         <div className="p-5 flex"><span><a href="/" className="text-gray-500 font-semibold hover:underline">Home</a></span> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <a className="text-black font-semibold" href="/scholarship">Scholarship</a> <span className="p-2 text-gray-500"><FaArrowAltCircleRight size={12}/></span> <span className="text-black font-semibold">KGMG</span></div>
-                        <h2 className="md:text-5xl font-semibold text-green-600 pb-3 pt-20 text-center sm:text-3xl">K Ganesh Meena Ganesh</h2>
+                        <h2 className="md:text-5xl font-semibold text-green-600 pb-3 pt-8  text-center sm:text-3xl">K Ganesh Meena Ganesh</h2>
                         
                 </div> 
                 <div className="mt-10 px-20" id="content">
                            <div>KGMG: The K. Ganesh and Meena Ganesh Scholarship for Entrepreneurship Development (famously known as KGMG) aims to inspire postgraduate students to think entrepreneurially. At IIT Madras, there are thousands of postgraduate students with research that could make a real difference if turned into a business. This scholarship helps students turn their thesis or project work into viable start-up ideas, providing support to bridge the gap from research to a successful business.</div>
                            <div className="mt-14">    
-                                    <h2 className="md:text-2xl font-semibold text-gray-500 text-center sm:text-3xl">Students supported by KGMG</h2>
+                                    <h2 className="md:text-2xl font-semibold text-green-600 text-center sm:text-3xl">Students supported by KGMG</h2>
                                     {/* grid */}
                                     <div className="grid grid-cols-4 gap-10 mt-7 mb-2">
                                             <div className="border border-t-4 border-green-400">
@@ -58,7 +58,7 @@ function Kgmg() {
                                     {/* jhdk */}
 
                                     <div className="mt-20 mb-10" id="ugfir">
-                                                <h2 className="md:text-2xl font-semibold text-gray-500 text-center sm:text-3xl">Stipend Details & Duration</h2>
+                                                <h2 className="md:text-2xl font-semibold text-green-600 text-center sm:text-3xl">Stipend Details & Duration</h2>
                                                 <div className="grid grid-cols-3 gap-5 mt-10">
                                                     <center>
                                                             <div className="">

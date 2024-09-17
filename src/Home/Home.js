@@ -131,7 +131,7 @@ const Carousel = () => {
       style={{ backgroundColor: "#abf7af" }}
     >
       <div className="relative w-full max-w-7xl mx-auto mt-6 ">
-        <div className="grid grid-cols-2 gap-1">
+        <div className="grid grid-cols-2">
           {/* Left Column: Slide Content */}
           <div
             className="overflow-hidden rounded-lg shadow-lg  "
@@ -191,6 +191,9 @@ const Carousel = () => {
               </button>
             </div>
           </div>
+
+
+          
         </div>
       </div>
       <div className="flex justify-center mt-4 space-x-2 mr-8">
@@ -245,13 +248,13 @@ const StatCounter = ({ stat }) => {
       
       {/* Conditionally render the 2023-2024 cohorts information below "Active Teams" */}
       {stat.label === "Active Teams" && (
-        <div className="mt-2 text-xs text-gray-600 font-dmsans">
-          2023-2024 Cohorts
+        <div className="mt-1 text-xs italic text-gray-900 font-dmsans">
+          (2023-2024 Cohort)
         </div>
       )}
       {stat.label === "Total Number of Teams Trained" && (
-        <div className="mt-2 text-xs text-gray-600 font-dmsans">
-          till 2023 Cohorts
+        <div className="mt-1 text-xs italic text-gray-900 font-dmsans">
+          (till 2023 Cohort)
         </div>
       )}
     </div>
@@ -374,7 +377,7 @@ const Home = () => {
       <div className="p-6 max-w-xl mx-auto bg-white rounded-xl space-y-4 bg-gray-50 mt-8 content-bottom">
         <div className="text-center">
           <h1 className="text-4xl font-bold font-dmsans text-green-600">
-            NIRMAAN IN NUMBERS
+            Nirmaan in Numbers
           </h1>
         </div>
       </div>
@@ -388,7 +391,7 @@ const Home = () => {
         </div>
         <div>
       <div className="flex items-center justify-center text-4xl font-bold mt-16 mb-8 font-dmsans text-green-600">
-        OUR SUPPORTERS
+        Our Supporters
       </div>
 
       <Marquee>
