@@ -131,10 +131,10 @@ const Carousel = () => {
       style={{ backgroundColor: "#abf7af" }}
     >
       <div className="relative w-full max-w-7xl mx-auto mt-6 ">
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-5">
           {/* Left Column: Slide Content */}
           <div
-            className="overflow-hidden rounded-lg shadow-lg  "
+            className="col-span-3 overflow-hidden rounded-lg shadow-lg  "
             style={{ backgroundColor: "#4c9c50" }}
           >
             <div
@@ -169,7 +169,7 @@ const Carousel = () => {
           </div>
 
           {/* Right Column: Arrows and Dots */}
-          <div className="font- ">
+          <div className="col-span-2 ">
             <div className="text-left  ">
               <h1 className="text-[25px] font-semibold font-dmsans mt-6 ml-16 text-black">
                 Inspiring <span className="text-green-600">stories</span> from

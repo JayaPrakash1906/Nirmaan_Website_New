@@ -14,7 +14,7 @@ function Ugfir() {
                         
                 </div> 
                 <div className="mt-10 px-20 text-justify" id="content">
-                           <div>UGFIR: Starting a business while juggling college life and preparing for post-graduation can be incredibly challenging. That’s where Nirmaan’s Founder In Residence (FIR) program steps in. This innovative initiative offers students not just a place to live but also a monthly stipend, freeing them to fully immerse themselves in their startup ventures. With this support, UG–FIR fellows can focus on their entrepreneurial dreams without the constant worry of financial constraints. Backed by our alumni and the A&CR office, the FIR program is designed to help aspiring founders thrive.</div>
+                           <div>Starting a business while juggling college life and preparing for post-graduation can be incredibly challenging. That’s where Nirmaan’s Founder In Residence (FIR) program steps in. This innovative initiative offers students not just a place to live but also a monthly stipend, freeing them to fully immerse themselves in their startup ventures. With this support, UG–FIR fellows can focus on their entrepreneurial dreams without the constant worry of financial constraints. Backed by our alumni and the A&CR office, the FIR program is designed to help aspiring founders thrive.</div>
                            <div className="mt-14">    
                                     <h2 className="md:text-2xl font-semibold text-green-600 text-center sm:text-3xl">Students supported by UGFIR</h2>
                                     {/* grid */}
