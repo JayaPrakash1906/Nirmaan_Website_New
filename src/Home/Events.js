@@ -63,9 +63,9 @@ function Events() {
           </div>
         </div>
       </div>
-      <div className="mb-[100px]">
+      
         <Footer />
-      </div>
+      
     </div>
   );
 }
