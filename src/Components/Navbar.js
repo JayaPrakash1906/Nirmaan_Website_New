@@ -13,9 +13,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full shadow-md text-black p-4 z-50" style={{ backgroundColor: '#83d687' }}>
+    <div className="fixed top-0 left-0 w-full shadow-md text-black p-4 z-50" style={{ backgroundColor: '#83d687' }} >
       <div className="flex items-center justify-between ml-8">
-        <a className="flex items-center" onClick={() => (window.location.href = "/")}>
+        < a className="flex items-center" onClick={() => (window.location.href = "/")}>
           <img src={Image} className="w-22 h-12 mr-2" alt="Image1" />
           <img src={Image3} className="w-22 h-14 mr-2" alt="Image2" />
           <img src={Image2} className="w-18 h-12 mr-3.5" alt="Image3" />
@@ -27,6 +27,13 @@ const Navbar = () => {
           </div>
         </a>
         <div className="flex gap-10 mr-12 font-dmsans font-semibold text-sm">
+          <button
+            type="button"
+            onClick={() => (window.location.href = "/")}
+            className={`active:scale-[.90] active:duration-70 hover:scale-[1.02] transition-all ease-in-out md pt-4 ${activePage === '/' ? 'border-b-2 border-green-800 text-green-800' : ''}`}
+          >
+            <span>HOME</span>
+          </button>
           <button
             type="button"
             onClick={() => (window.location.href = "/About_us")}
@@ -49,7 +56,7 @@ const Navbar = () => {
                 PRE-INCUBATION
               </button>
               <button
-                className="block px-4 py-2 text-sm hover:bg-gray-200 w-full text-left"
+                className="block  py-2 text-sm hover:bg-gray-200 w-full text-left mr-8 ml-1"
                 onClick={() => (window.location.href = "/scholarship")}
               >
                 SCHOLARSHIP

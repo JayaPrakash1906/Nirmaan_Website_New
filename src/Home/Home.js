@@ -307,15 +307,16 @@ const Home = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-[-10px] mr-6">
+          <div className="col-span-1"></div>
           <motion.div
-            className="col-span-6 mt-8 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 "
+            className="col-span-5 mt-8 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 "
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
             <motion.img
               src={Img6}
-              className="h-[180px] border border-green-800 rounded-lg"
+              className="h-[180px] w-[300px] border border-green-800 rounded-lg"
               alt="Image 1"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}   
@@ -323,19 +324,21 @@ const Home = () => {
             />
           </motion.div>
           <motion.div
-            className="col-span-6 mt-8 mr-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            className="col-span-5 mt-8 mr-3 ml-2 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
             <motion.img
               src={Img15}
-              className="h-[180px] border border-green-800 rounded-lg"
+              className="h-[180px] w-[300px] border border-green-800 rounded-lg"
               alt="Image 9"
             />
           </motion.div>
+          <div className="col-span-1"></div>
+          
           <motion.div
-            className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            className="col-span-4 p-3 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
@@ -347,19 +350,19 @@ const Home = () => {
             />
           </motion.div>
           <motion.div
-            className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            className="col-span-4 p-3 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
             <motion.img
               src={Img18}
-              className="h-21 border border-green-800 rounded-lg"
+              className="h-[143px] border border-green-800 rounded-lg"
               alt="Image 1"
             />
           </motion.div>
           <motion.div
-            className="col-span-4 p-6 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            className="col-span-4 p-3 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}

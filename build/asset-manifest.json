@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb8a159b.css",
-    "main.js": "/static/js/main.4523f6fc.js",
+    "main.css": "/static/css/main.7bc7dede.css",
+    "main.js": "/static/js/main.f4d3059a.js",
     "static/js/511.e57ae850.chunk.js": "/static/js/511.e57ae850.chunk.js",
     "static/media/image (1).jpg": "/static/media/image (1).0cba5c537791773a3e0d.jpg",
     "static/media/iitm logo.png": "/static/media/iitm logo.0105d85b3475030de3d8.png",
@@ -61,12 +61,12 @@
     "static/media/Seafund-Logo-1.webp": "/static/media/Seafund-Logo-1.3cd05bb4e57e1495e904.webp",
     "static/media/hyperverge-logo.webp": "/static/media/hyperverge-logo.0d916a5ebaafd30b2687.webp",
     "index.html": "/index.html",
-    "main.eb8a159b.css.map": "/static/css/main.eb8a159b.css.map",
-    "main.4523f6fc.js.map": "/static/js/main.4523f6fc.js.map",
+    "main.7bc7dede.css.map": "/static/css/main.7bc7dede.css.map",
+    "main.f4d3059a.js.map": "/static/js/main.f4d3059a.js.map",
     "511.e57ae850.chunk.js.map": "/static/js/511.e57ae850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb8a159b.css",
-    "static/js/main.4523f6fc.js"
+    "static/css/main.7bc7dede.css",
+    "static/js/main.f4d3059a.js"
   ]
 }
