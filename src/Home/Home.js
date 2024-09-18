@@ -173,8 +173,7 @@ const Carousel = () => {
             <div className="text-left  ">
               <h1 className="text-[25px] font-semibold font-dmsans mt-6 ml-16 text-black">
                 Inspiring <span className="text-green-600">stories</span> from
-                the members
-                <br /> of the past
+                the members of the past
               </h1>
               
             </div>
