@@ -338,7 +338,7 @@ const Home = () => {
           <div className="col-span-1"></div>
           
           <motion.div
-            className="col-span-4 p-3 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content"
+            className="col-span-4 p-3 max-w-xl mx-auto bg-white rounded-xl bg-gray-50 content "
             initial={{ opacity: 0}}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
